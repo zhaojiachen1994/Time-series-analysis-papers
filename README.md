@@ -40,5 +40,8 @@ About recurrent neural network, LSTM
 
 ## Other resources
 
+- Kaggle
+  - [利用RNN处理大型时间序列数据，进行地震的预测](https://www.kaggle.com/mayer79/rnn-starter-for-huge-time-series)
+
 
 
