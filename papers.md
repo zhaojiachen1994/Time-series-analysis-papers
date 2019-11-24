@@ -20,4 +20,4 @@
   - Hierarchical multiscale lstm建立了多层的lstm, 层与层之间的状态有相互连接。
 
 ## SAX representation
-- 20191124 `ICDM2013` [SAX-VSM: Interpretable Time Series Classification Using SAX and Vector Space Model (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.715.4227&rep=rep1&type=pdf)[[`Official code`](https://github.com/jMotif/sax-vsm_classic)]
+- 20191124 `ICDM2013` [SAX-VSM: Interpretable Time Series Classification Using SAX and Vector Space Model] (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.715.4227&rep=rep1&type=pdf)[[`Official code`](https://github.com/jMotif/sax-vsm_classic)]
