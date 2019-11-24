@@ -22,7 +22,9 @@ About recurrent neural network, LSTM
 ## Code and Repositories
 - [ruptures](https://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html): 一个change point detection的基础python工具包，包括基础的CPD算法，仿真信号，衡量方法。
 
-- 
+- [seglearn](https://dmbee.github.io/seglearn/): 一个对时间序列分段、提取特征的python工具包
+
+
 
 ## Datasets and resources
 
