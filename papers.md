@@ -4,6 +4,7 @@
 - [Papers](#Papers)
   - [Surveys](#survey)
   - [Deep learning and time series](#Deep-learning-and-time-series)
+  - [SAX representation](#SAX-representation)
   
 ## Surveys
 
@@ -17,3 +18,6 @@
 - 20191120 `arXiv2018` [Reveisiting the Hierarchical Multiscale LSTM](https://arxiv.org/abs/1807.03595)[[`code`](https://github.com/lucaslingle/hm_lstm)]
   - 复现了2016年的论文[Hierarchical multiscale lstm](https://arxiv.org/pdf/1609.01704.pdf), 没有达到预期的效果。
   - Hierarchical multiscale lstm建立了多层的lstm, 层与层之间的状态有相互连接。
+
+## SAX representation
+- 20191124 `ICDM2013` [SAX-VSM: Interpretable Time Series Classification Using SAX and Vector Space Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.715.4227&rep=rep1&type=pdf)[[`code(official)`](https://github.com/jMotif/sax-vsm_classic)]
