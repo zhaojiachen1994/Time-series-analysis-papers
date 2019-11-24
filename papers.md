@@ -9,6 +9,7 @@
     - [Abnormaly detection](#abnoramly-detection)
     - [Prediction](#prediction) 
   - [SAX representation](#SAX-representation)
+  - [Traditional methods on time series](#traditional-methods-on-time-series)
   - [Applications](#applications)
   
 ## Surveys
@@ -35,5 +36,11 @@
 - 20191124 `ICDM2013` [SAX-VSM Interpretable Time Series Classification Using SAX and Vector Space Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.715.4227&rep=rep1&type=pdf) [[`Official code`](https://github.com/jMotif/sax-vsm_classic)][]
   - SAX对时间序列进行离散字符表示，用字符串特征的频率来表示每个类别的特征。(SAX+词袋)
   - 词袋中item的频率表示了分类中的重要性，就是Interpretable.
-  
+
+## Traditional methods on time series
+- 20191124 `arXiv` [Detecting Change-Points in Time Series by Maximum Mean Discrepancy of Ordinal Pattern Distributions](https://arxiv.org/abs/1210.4903)
+  - Oridinal Paatern distribution 描述了一小段子序列中各个数据的大小顺序 (represents the order relations among successive values of a time series)
+  - 然后用MMD距离进行two-sample test, 从而判断是否存在change point.
+
+
 ## Applications
