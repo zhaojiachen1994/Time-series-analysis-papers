@@ -8,8 +8,7 @@ About recurrent neural network, LSTM
   - [Papers](./papers.md)
   - [Code and repositories](#code-and-repositories)
   - [Datasets and resources](#datasets-and-resources)
-  - [其他资源(知乎 教程)](#other-resources):some interesting cases
-  - [Documents about wearable computing](#Documents about wearable computing)
+  - [其他资源(知乎 教程)](#other-resources): some interesting cases
 
 
 ## Introductions
