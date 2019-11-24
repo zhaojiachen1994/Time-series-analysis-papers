@@ -9,7 +9,7 @@
   - Task category
     - [Classification](#Classification)
     - [Segmentation](#Segmentation)
-    - [Abnormaly detection](#abnoramly detection)
+    - [Abnormaly detection](#abnoramly-detection)
     - [Prediction](#prediction)
   - [Application](#application)
   
