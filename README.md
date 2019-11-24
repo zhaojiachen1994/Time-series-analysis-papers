@@ -23,7 +23,7 @@ About recurrent neural network, LSTM
   - 对普通RNN的一种简化，认为序列的各个维度之间相互独立，原本正向传递时的矩阵乘法变为向量乘法。
   - 记忆长度更长，克服梯度消失问题。
   - 深度IndRNN投稿到CVPR2019: [Deep Independently Recurrent Neural Network (IndRNN)](https://arxiv.org/pdf/1910.06251.pdf)
-
+  [222](https://1drv.ms/b/s!AhuOc8yHadNigcI-mftSCrAPNtgpAw?e=WM7wJU)
 
 
 ## Code and Repositories
