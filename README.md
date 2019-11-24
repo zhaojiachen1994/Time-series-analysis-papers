@@ -19,7 +19,7 @@ About recurrent neural network, LSTM
   - autoencoder ensembles: 每个encoder随机缺少权重连接，最后在集成多个encoder,避免过拟合。
   - sparsely-connecected RNNs: 随机连接当前时刻之前的几步，再进行集成。
   
-- 20191124 `CVPR2018` [Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN](https://arxiv.org/abs/1803.04831)[Comment](https://www.jianguoyun.com/p/Dfw2rYoQ5sn0BxjIk6EC)[[`code`](https://www.jianguoyun.com/p/Dfw2rYoQ5sn0BxjIk6EC)]
+- 20191124 `CVPR2018` [Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN](https://arxiv.org/abs/1803.04831) [[`Comment`](https://www.jianguoyun.com/p/Dfw2rYoQ5sn0BxjIk6EC)] [[`code`](https://www.jianguoyun.com/p/Dfw2rYoQ5sn0BxjIk6EC)]
   
 ## Code and Repositories
 - [ruptures](https://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html): 一个change point detection的基础python工具包，包括基础的CPD算法，仿真信号，衡量方法。
