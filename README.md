@@ -5,7 +5,7 @@ About recurrent neural network, LSTM
 ## [Table of Contents]()
 - [Time series analysis](#Time-series-analysis)
   - [Introductions](#Introduction)
-  - [Papers](#Papers)
+  - [Papers](./papers.md)
   - [Code and repositories](#code-and-repositories)
   - [Datasets and resources](#datasets-and-resources)
   - [其他资源(知乎 教程)](#other-resources)
