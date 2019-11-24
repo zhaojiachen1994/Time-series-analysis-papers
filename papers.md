@@ -31,12 +31,12 @@
   - SAX对时间序列进行离散字符表示，用字符串特征的频率来表示每个类别的特征。(SAX+词袋)
   - 词袋中item的频率表示了分类中的重要性，就是Interpretable.
   
-%## Classification
+## Classification
 
-%## Segmentation
+## Segmentation
 
-%## Abnormaly detection
+## Abnormaly detection
 
-%## Prediction
+## Prediction
 
-%## Application
+## Application
