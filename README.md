@@ -3,8 +3,8 @@ About time series anomaly detection, prediction
 About recurrent neural network, LSTM
 
 ## [Table of Contents]()
-  * [Survey](#Survey)
-  * [Papers](#Papers)
+  - [Survey](#Survey)
+  - [Papers](#Papers)
 
 
 
