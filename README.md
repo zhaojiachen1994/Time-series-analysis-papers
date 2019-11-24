@@ -45,6 +45,10 @@ About recurrent neural network, LSTM
   - [利用RNN处理大型时间序列数据，进行地震的预测](https://www.kaggle.com/mayer79/rnn-starter-for-huge-time-series)
 - 知乎
   - [一个简短精彩的关于RNN中学习长期依赖的三种机制的概述](https://zhuanlan.zhihu.com/p/34490114)
+  - [知乎时间序列分析专栏](https://zhuanlan.zhihu.com/c_1071087593646698496)
+  - [RNN中为什么要用tanh,而不是ReLU作为激活函数](https://www.zhihu.com/question/61265076/answer/260492479)
+  - [时间序列预测方法总结知乎专栏](https://zhuanlan.zhihu.com/p/67832773)
+  
   
 - Documents about wearable computing
   - 人机交互百科全书的第二章：[Wearable computing, including concepts and applications(英文)](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/wearable-computing) 
