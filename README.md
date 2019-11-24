@@ -8,7 +8,8 @@ About recurrent neural network, LSTM
   - [Papers](./papers.md)
   - [Code and repositories](#code-and-repositories)
   - [Datasets and resources](#datasets-and-resources)
-  - [其他资源(知乎 教程)](#other-resources)
+  - [其他资源(知乎 教程)](#other-resources):some interesting cases
+  - [Documents about wearable computing](#Documents about wearable computing)
 
 
 ## Introductions
@@ -43,5 +44,6 @@ About recurrent neural network, LSTM
 - Kaggle
   - [利用RNN处理大型时间序列数据，进行地震的预测](https://www.kaggle.com/mayer79/rnn-starter-for-huge-time-series)
 
-
+## Documents about wearable computing
+- 人机交互百科全书的第二章：[Wearable computing](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/wearable-computing)
 
