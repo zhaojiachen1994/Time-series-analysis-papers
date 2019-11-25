@@ -19,7 +19,7 @@ About recurrent neural network, LSTM
   - autoencoder ensembles: 每个encoder随机缺少权重连接，最后在集成多个encoder,避免过拟合。
   - sparsely-connecected RNNs: 随机连接当前时刻之前的几步，再进行集成。
   
-- 20191124 `CVPR2018` [Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN](https://arxiv.org/abs/1803.04831) [[`Comment`](https://www.jianguoyun.com/p/Dfw2rYoQ5sn0BxjIk6EC)] [[`code`](https://github.com/Sunnydreamrain/IndRNN_pytorch)]
+- 20191124 `CVPR2018` [Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN](https://1drv.ms/b/s!AhuOc8yHadNigcx7SHAmtVaSnLADZQ?e=aMf283)[[`code`](https://github.com/Sunnydreamrain/IndRNN_pytorch)]
   - 对普通RNN的一种简化，认为序列的各个维度之间相互独立，原本正向传递时的矩阵乘法变为向量乘法。
   - 记忆长度更长，克服梯度消失问题。
   - 深度IndRNN投稿到CVPR2019: [Deep Independently Recurrent Neural Network (IndRNN)](https://arxiv.org/pdf/1910.06251.pdf)
