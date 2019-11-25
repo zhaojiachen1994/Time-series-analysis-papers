@@ -33,12 +33,12 @@
   - Hierarchical multiscale lstm建立了多层的lstm, 层与层之间的状态有相互连接。
 
 ## SAX representation
-- 20191124 `ICDM2013` [SAX-VSM Interpretable Time Series Classification Using SAX and Vector Space Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.715.4227&rep=rep1&type=pdf) [[`Official code`](https://github.com/jMotif/sax-vsm_classic)]
+- 20191124 `ICDM2013` [SAX-VSM Interpretable Time Series Classification Using SAX and Vector Space Model](https://1drv.ms/b/s!AhuOc8yHadNigcx45rWhHwQ-h7zO6w?e=vwfYlS) [[`Official code`](https://github.com/jMotif/sax-vsm_classic)]
   - SAX对时间序列进行离散字符表示，用字符串特征的频率来表示每个类别的特征。(SAX+词袋)
   - 词袋中item的频率表示了分类中的重要性，就是Interpretable.
 
 ## Traditional methods on time series
-- 20191124 `arXiv2012` [Detecting Change-Points in Time Series by Maximum Mean Discrepancy of Ordinal Pattern Distributions](https://arxiv.org/abs/1210.4903)
+- 20191124 `arXiv2012` [Detecting Change-Points in Time Series by Maximum Mean Discrepancy of Ordinal Pattern Distributions](https://1drv.ms/b/s!AhuOc8yHadNigcx3h7VfHuFZuwdyXg?e=Sb4I4x)
   - Oridinal Paatern distribution 描述了一小段子序列中各个数据的大小顺序 (represents the order relations among successive values of a time series)
   - 然后用MMD距离进行two-sample test, 从而判断是否存在change point.
 
