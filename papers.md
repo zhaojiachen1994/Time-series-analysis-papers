@@ -24,6 +24,10 @@
 ### Segmentation
 
 ### Abnormaly detection
+
+- 20191125 `arXiv2016` [Lstm-based encoder-decoder for multi-sensor anomaly detection](https://1drv.ms/b/s!AhuOc8yHadNigcN3lSAWyBihC8dAeA?e=VFBGrI)[`no code`]
+  - 利用lstm反向编码，编码误差的高斯密度函数为outlier指示指标。*lstm反向编码可参考*
+
 - 20191119 `JICAI2019` [Outlier Detection for Time Series with Recurrent Autoencoder Ensembles](https://1drv.ms/b/s!AhuOc8yHadNigcx7SHAmtVaSnLADZQ?e=k6HkSP) [[`Code`](https://github.com/tungk/OED)][*`Abnormaly detection`*]
   - the first proposeal for using recurrent neural network autoencoder ensembles for outlier detection for time series.
   - autoencoder ensembles: 每个encoder随机缺少权重连接，最后在集成多个encoder,避免过拟合。
