@@ -10,7 +10,9 @@
     - [Prediction](#prediction) 
   - [SAX representation](#SAX-representation)
   - [Traditional methods on time series](#traditional-methods-on-time-series)
+  - [Hot topic with time series](#Hot topic with time series)
   - [Applications](#applications)
+  
   
 ## Surveys
 
@@ -42,5 +44,6 @@
   - Oridinal Paatern distribution 描述了一小段子序列中各个数据的大小顺序 (represents the order relations among successive values of a time series)
   - 然后用MMD距离进行two-sample test, 从而判断是否存在change point.
 
+## Hot topic with time series
 
 ## Applications
