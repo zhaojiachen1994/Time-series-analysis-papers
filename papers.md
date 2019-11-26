@@ -10,7 +10,7 @@
     - [Prediction](#prediction) 
   - [SAX representation](#SAX-representation)
   - [Traditional methods on time series](#traditional-methods-on-time-series)
-  - [Hot topic with time series](#Hot topic with time series)
+  - [Hot topic with time series](#Hot-topic-with-time-series)
   - [Applications](#applications)
   
   
