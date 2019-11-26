@@ -28,7 +28,7 @@ About recurrent neural network, LSTM
 
 - [seglearn](https://dmbee.github.io/seglearn/): 一个对时间序列分段、提取特征的python工具包
 
-
+- [Downloader for real-world datasets](https://github.com/chickenbestlover/RNN-Time-series-Anomaly-Detection/blob/master/0_download_dataset.py):RNN时间序列异常检测的真实数据下载器。
 
 
 
