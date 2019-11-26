@@ -28,13 +28,13 @@
 - 20191125 `arXiv2016` [Lstm-based encoder-decoder for multi-sensor anomaly detection](https://1drv.ms/b/s!AhuOc8yHadNigcN3lSAWyBihC8dAeA?e=VFBGrI)[`no code`]
   - 利用lstm反向编码，编码误差的高斯密度函数为outlier指示指标。*lstm反向编码可参考*
 
-- 20191119 `JICAI2019` [Outlier Detection for Time Series with Recurrent Autoencoder Ensembles](https://1drv.ms/b/s!AhuOc8yHadNigcx7SHAmtVaSnLADZQ?e=k6HkSP) [[`Code`](https://github.com/tungk/OED)][*`Abnormaly detection`*]
+- 20191119 `JICAI2019` [Outlier Detection for Time Series with Recurrent Autoencoder Ensembles](https://1drv.ms/b/s!AhuOc8yHadNigcx7SHAmtVaSnLADZQ?e=k6HkSP) [[`Code`](https://github.com/tungk/OED)]
   - the first proposeal for using recurrent neural network autoencoder ensembles for outlier detection for time series.
   - autoencoder ensembles: 每个encoder随机缺少权重连接，最后在集成多个encoder,避免过拟合。
   - sparsely-connecected RNNs: 随机连接当前时刻之前的几步，再进行集成。
 
 ### Prediction
-- 20191120 `arXiv2018` [Reveisiting the Hierarchical Multiscale LSTM](https://1drv.ms/b/s!AhuOc8yHadNigcNt-FRl351gG2L37A?e=iWHLgX)[[`Code`](https://github.com/lucaslingle/hm_lstm)][*`Prediction`*]
+- 20191120 `arXiv2018` [Reveisiting the Hierarchical Multiscale LSTM](https://1drv.ms/b/s!AhuOc8yHadNigcNt-FRl351gG2L37A?e=iWHLgX)[[`Code`](https://github.com/lucaslingle/hm_lstm)]
   - 复现了2016年的论文[Hierarchical multiscale lstm](https://arxiv.org/pdf/1609.01704.pdf), 没有达到预期的效果。
   - Hierarchical multiscale lstm建立了多层的lstm, 层与层之间的状态有相互连接。
 
