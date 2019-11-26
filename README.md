@@ -14,10 +14,9 @@ About recurrent neural network, LSTM
 ## Introductions
 
 ## Important Papers
-- 20191119 `JICAI2019` [Outlier Detection for Time Series with Recurrent Autoencoder Ensembles](https://1drv.ms/b/s!AhuOc8yHadNigcx7SHAmtVaSnLADZQ?e=aMf283) [[`Code`](https://github.com/tungk/OED)]
-  - the first proposeal for using recurrent neural network autoencoder ensembles for outlier detection for time series.
-  - autoencoder ensembles: 每个encoder随机缺少权重连接，最后在集成多个encoder,避免过拟合。
-  - sparsely-connecected RNNs: 随机连接当前时刻之前的几步，再进行集成。
+- 20191125 `ICLR2018` [Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection](https://1drv.ms/b/s!AhuOc8yHadNigcxmXTqsW3LIxzzc6g?e=fCGKDV)[[`code`](https://github.com/danieltan07/dagmm)]
+  - 包括一个编码网络和估计网络，同一训练，损失函数包括编码误差和聚类熵。
+  - 编码网络输入原始数据，输出restructured error and hidden feature;估计网络进行高斯混合分布概率的估计，概率小的为outlirer.
   
 - 20191124 `CVPR2018` [Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN](https://1drv.ms/b/s!AhuOc8yHadNigcx6xIkuQMNcCixhSQ?e=RVyKyv)[[`code`](https://github.com/Sunnydreamrain/IndRNN_pytorch)]
   - 对普通RNN的一种简化，认为序列的各个维度之间相互独立，原本正向传递时的矩阵乘法变为向量乘法。
