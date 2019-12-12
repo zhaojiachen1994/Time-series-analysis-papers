@@ -14,6 +14,14 @@ About recurrent neural network, LSTM
 ## Introductions
 
 ## Important Papers
+
+- 20191212 `TNNLS2019` [Unsupervised Anomaly Detection with LSTM Neural Networks]
+(https://1drv.ms/b/s!AhuOc8yHadNigc1WN8NNWnDgedoBXw?e=xXhzNP) [`code`]
+  - 利用LSTM进行编码，利用one class SVM来计算异常分数，综合训练
+  - LSTM+OCSVM+quadratic programming training, LSTM+OCSVM+gradient-based training, LSTM+SVDD
+  - 数学推导比较好，实验一般
+  - [Smooth maximum](https://en.wikipedia.org/wiki/Smooth_maximum)将最大值优化问题近似为可导函数的方法可以参考
+
 - 20191125 `ICLR2018` [Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection](https://1drv.ms/b/s!AhuOc8yHadNigcxmXTqsW3LIxzzc6g?e=fCGKDV)[[`code`](https://github.com/danieltan07/dagmm)]
   - 包括一个编码网络和估计网络，同一训练，损失函数包括编码误差和聚类熵。
   - 编码网络输入原始数据，输出restructured error and hidden feature;估计网络进行高斯混合分布概率的估计，概率小的为outlirer.
