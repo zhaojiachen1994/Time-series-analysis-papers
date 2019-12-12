@@ -15,7 +15,7 @@ About recurrent neural network, LSTM
 
 ## Important Papers
 
-- 20191212 `TNNLS2019` [Unsupervised Anomaly Detection with LSTM Neural Networks](https://1drv.ms/b/s!AhuOc8yHadNigc1WN8NNWnDgedoBXw?e=xXhzNP) [`code`]
+- 20191212 `TNNLS2019` [Unsupervised Anomaly Detection with LSTM Neural Networks](https://1drv.ms/b/s!AhuOc8yHadNigc1WN8NNWnDgedoBXw?e=xXhzNP) [`no code`]
   - 利用LSTM进行编码，利用one class SVM来计算异常分数，综合训练
   - LSTM+OCSVM+quadratic programming training, LSTM+OCSVM+gradient-based training, LSTM+SVDD
   - 数学推导比较好，实验一般
